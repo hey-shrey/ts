@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 const BackgroundWrapper = styled.svg`
   height: 100vh;
+  z-index: -1;
 `;
 const Background = () => {
   return (
